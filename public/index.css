@@ -1,0 +1,251 @@
+.fixed-nav-bar {
+    font-size: small;
+    width: 100%;
+    text-align: left;
+    padding: 0;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.fixed-nav-bar li {
+    display: inline-block;
+}
+
+.fixed-nav-bar li#name{
+    font-size: 20px;
+    color:white;
+    margin-right: 5px;
+}
+
+button {
+    font-family: "Times New Roman";
+    background-color: transparent;
+    border: none;
+    color: pink;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    color: white;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+button:focus{
+    outline: none;
+}
+
+.header{
+    background-color: black;
+    border-color:black;
+    border-style:solid;
+    font-size:0;
+    margin:0;
+    position:absolute;
+    width:100%;
+}
+
+.content{
+    /*margin: 0 px;*/
+    /*border-color:pink;*/
+    padding:0;
+    margin:0;
+    /*font-size:0;*/
+}
+
+div#landingpage{
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("bg.jpg");
+    background-size: cover;
+    height:90vh;
+    width:100%;
+    /*display:none;*/
+    /*border-color:pink;*/
+}
+
+.text{
+    color:white;
+    font-size: small;
+    margin-left:20px;
+}
+
+div#label{
+    color: white;
+    font-size: 50px;
+    margin: 0 auto;
+    border: 7px solid white;
+    padding-top: 15px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    align: center;
+}
+
+ul#adjs{
+    font-size: 12px;
+    list-style: none;
+    padding:0;
+    padding-top: 15px;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+}
+
+div#aboutcontent{
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("about.jpg");
+    background-size: cover;
+    height:90vh;
+    width:100%;
+}
+
+.blackbar{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    padding:0;
+    margin:0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+div#intro{
+    color: white;
+}
+
+div#abouttitle{
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+div#line{
+    display: inline-block;
+    float:right;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: white;
+    width: 40%;
+    padding-left: 20px;
+    margin-top: 110px;
+    margin-right: 40px;
+}
+
+div#row1 {
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.project{
+    width: 33%;
+    height: 35vh;
+    float: left;
+    text-align: center;
+}
+
+div#project1{
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("pictures/project2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+div#project2{
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("pictures/project3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+div#project3{
+    width: 34%;
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("pictures/project1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+div#project4{
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("pictures/project4.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+div#project5{
+    background-image: radial-gradient(circle, black, gray);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+div#project6{
+    width: 34%;
+    background-image: radial-gradient(circle, black, gray);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.projectcontent{
+    color: white;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+#footer{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+#contacticons{
+    color: white;
+    display: inline-block;
+    height: 100px;
+    text-align: center;
+    float: left;
+}
+
+#cpr{
+    font-size: 10px;
+    text-align: center;
+}
+
+i{
+    padding-right: 10px;
+}
+
+i:hover{
+    color: gray;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.desc{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    width: 80%;
+    padding-left: 10%;
+    visibility: hidden;
+}
+
+.project:hover .desc{
+    visibility: visible;
+}
+
+.project:hover .projectcontent{
+    display: none;
+}
+
