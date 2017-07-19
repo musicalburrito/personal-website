@@ -5,22 +5,22 @@
         <script language=JavaScript type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script language=JavaScript type="text/javascript" src="index.js"></script>
         <link rel="stylesheet" href="index.css">
-        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Francois+One" rel="stylesheet">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <div class="header">
             <ul class="fixed-nav-bar">
                 <li id="name"> Nancy Li
-                    <button id="about">About</button>
-                    <button id="projects">Projects</button>
-                    <button id="contact">Contact</button>
+                    <button id="about" class="button">About</button>
+                    <button id="projects" class="button">Projects</button>
+                    <button id="contact" class="button">Contact</button>
             </ul>
         </div>
         <div id="landingpage" class="content">
             <br><br><br><br><br><br><br><br><br>
             <div id="label">
-                Nancy Li
+                <span style="font-family: 'Francois One', sans-serif;">Nancy Li</span>
                 <ul id="adjs">
                     <li>Aspiring Developer <br>
                     <li>Lifelong Gamer <br>
@@ -33,11 +33,14 @@
                 About
             </div>
             <div id="line">
-                <div id="intro">I'm a soon to be graduate at the University of California, Riverside with a B.S. in Computer
-                    Science with a minor in Statistics. I love making sense of data and developing practical apps that connect
-                    people together or eradicate daily nuisances. I am currently located in Fremont, CA and job hunting
-                    whilst working on personal projects. While I'm not doing those things, I like obsessing over corgis,
-                    trying different kinds of food, and capturing moments with my camera.</div>
+                <div id="intro">Hi! Thanks for visiting my page! I'm a soon to be graduate at the University of California,
+                    Riverside with a B.S. in Computer Science with a minor in Statistics. I love making sense of data and
+                    developing practical apps that connect people together or eradicate daily nuisances. I am currently
+                    located in Northern California and job hunting whilst working on personal projects. While I'm not doing
+                    those things, I like obsessing over corgis,trying different kinds of food, and capturing moments with
+                    my camera. Maybe we can work together. Here's my
+                    <a href="file:///resume.pdf" class="button" id="resume"> resume </a>.
+                    <br><br> *All the pictures on this site are original.</div>
             </div>
         </div>
         
@@ -62,7 +65,7 @@
             <div class="project" id="project4">
                 <p class="projectcontent"> Personal Website </p>
                 <div class="overlay" id="p4">
-                    <div class="desc">This website!</div> </div>
+                    <div class="desc">This website! This whole website was written from scratch without any frameworks.</div> </div>
             </div>
             <div class="project" id="project5">
                 <p class="projectcontent"> Coming Soon </p>
@@ -76,8 +79,9 @@
             <a href="https://facebook.com/classicalsymphony"><i class="fa fa-facebook-square fa-2x"></i></a>
             <a href="https://github.com/musicalburrito"><i class="fa fa-github-square fa-2x"></i></a>
             <a href="https://www.linkedin.com/in/nancy-li-36a81b24"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="mailto:nli006@ucr.edu"><i class="fa fa-envelope-square fa-2x" id="email"></i></a>
             <br><br>
-            <p id="cpr">(c) Nancy Li. All rights reserved.</p>
+            <p id="cpr">© Nancy Li. All rights reserved.</p>
         </div>
     </body>
 </html>
