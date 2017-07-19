@@ -59,7 +59,7 @@ button:focus{
 
 div#landingpage{
     background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("/pictures/bg.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     height:90vh;
     width:100%;
     /*display:none;*/
@@ -98,7 +98,7 @@ div#label{
 
 div#aboutcontent{
     background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("/pictures/about.png");
-    background-size: cover;
+    background-size: 100% 100%;
     height:90vh;
     width:100%;
 }
