@@ -182,14 +182,14 @@ div#project4{
 }
 
 div#project5{
-    background-image: radial-gradient(circle, black, gray);
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("/public/pictures/project5.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 div#project6{
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("/public/pictures/project6.jpg");
     width: 34%;
-    background-image: radial-gradient(circle, black, gray);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
