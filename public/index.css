@@ -254,3 +254,14 @@ i:hover{
     font-family: 'Source Sans Pro', sans-serif;
     margin-left:0;
 }
+
+#picture{
+    background-image: url("/public/pictures/picture.jpg");
+    background-size: 100% 100%;
+    width: 23%;
+    height: 50%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 60px;
+    /*background-color: white;*/
+}
