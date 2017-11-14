@@ -260,7 +260,7 @@ i:hover{
 }
 
 #picture{
-    display: block;
+/*     display: block; */
     max-width:230px;
     max-height:200px;
     width: auto;
@@ -272,6 +272,6 @@ i:hover{
     height: 50%;
     float: left;
     margin-left: 20%;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
