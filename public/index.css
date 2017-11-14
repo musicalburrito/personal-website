@@ -260,12 +260,18 @@ i:hover{
 }
 
 #picture{
-    background-image: url("/public/pictures/picture.jpg");
-    background-size: 100% 100%;
+    display: block;
+    max-width:230px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+#pictureDiv{
     width: 23%;
-    height: 50%;
+    height: 100%;
     float: left;
     margin-left: 20%;
     margin-top: 60px;
-    /*background-color: white;*/
 }
+
